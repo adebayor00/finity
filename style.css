@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+margin-top: 20px;
+height: 90vh;
+width: 60%;
+background-color: blanchedalmond;
+margin-left: 10%;
+padding:0 25px;
+margin-bottom: 40px;
+padding-bottom: 20px;
+color: white;
+box-sizing: border-box;
+padding-top: 10px;
+}
+
+.menu{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-template-rows: 30vh 30vh auto;
+    grid-template-areas: 
+    "aside aside right1"
+    "aside aside right2"
+    "left middle bottom-right"
+        ;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: rgb(23, 23, 72);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.right1{
+    grid-area: right1;
+    line-height: 1.5em;
+    background-color: azure;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 50px;
+    color: black;
+
+
+   
+}
+
+.right2{
+    grid-area: right2;
+    background-color: rgb(32, 32, 41);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+.middle{
+    grid-area: middle;
+    background-color: rgb(32, 32, 41);
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+.bottom-right{
+    grid-area: bottom-right;
+    background-color: rgb(32, 32, 41);
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+.left{
+    grid-area: left;
+    background-color: rgb(32, 32, 41);
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+.card h1{
+    color: black;
+    text-align: center;
+}
